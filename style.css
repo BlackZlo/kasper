@@ -16,6 +16,7 @@ body {
     font-size: 2rem;
     color: #fff;
     background-color: red;
+    letter-spacing: .2rem;
 }
 
 .container {
@@ -24,7 +25,7 @@ body {
     height: 177rem;
     margin-top: 12.5rem;
     position: relative;
-    background: url(logo/logoback.svg) no-repeat;
+    background: url(logo/logoback.svg) center/cover no-repeat;
 }
 .header-logo {
     position: absolute;
@@ -45,13 +46,16 @@ body {
     display: block;
     color: #3de8ca;
 }
+.header-title__secondary {
+    display: block;
+}
 .header-text {
     position: absolute;
     top: 27rem;
     left: 13.2rem;
-    width: 55rem;
+    width: 60.9rem;
     text-align: left;
-    font: 200 2.4rem var(--font-family);
+    font: 200 2.3rem var(--font-family);
     line-height: 125%;
 }
 .header-img {
@@ -64,6 +68,29 @@ body {
     height: auto;
     mix-blend-mode: screen;
 }
+.aside-first {
+    background: url(/img/gra.png) center / cover no-repeat;
+    background-repeat: no-repeat;
+    border-radius: 1.7rem;
+    text-align: center;
+    position: relative;
+    width: 57.6rem;
+    height: 37.7rem;
+}
+.img-1 {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
