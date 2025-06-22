@@ -19,12 +19,12 @@ body {
 .container {
     margin: 161px 50px 0 50px;
     width: 1440px;
-    height: 1672px;
+    height: 1550px;
     background: url(logo/logoback.svg) center/cover no-repeat;
+    
 }
 
 header {
-    border: 1px solid blue;
     width: 1176px;
     height: 629px;
     margin: 120px 0;
@@ -69,10 +69,9 @@ h1 {
     mix-blend-mode: screen;
 }
 main {
-    border: .3rem ridge green;
     width: 1176px;
     height: 588px;
-    margin: 0 132px 22px 132px;
+    margin: 0 132px 210px 132px;
 }
 .section-first {
     display: grid;
@@ -148,8 +147,11 @@ main {
     position: absolute;
     line-height: 18px;
     letter-spacing: 0%;
-    font: 400 16px var(--second-family);
+    font: 400 14px var(--second-family);
     
+}
+.text_info_second {
+    white-space: nowrap;
 }
 .section-secondary {
     display: grid;
@@ -162,11 +164,22 @@ main {
     bottom: 16px;
     left: 25px;
 }
+
 footer {
     background: url(/logo/footer.svg) center / cover no-repeat;
-    border: 1.5px solid black;
     height: 100px;
     font-size: 80px;
+    position: relative;
+}
+.footer-logo_first {
+    position: absolute;
+    top: 24px;
+    left: 110px;
+}
+.footer-logo_second {
+    position: absolute;
+    bottom:18px;
+    right: 110px;
 }
 
 
